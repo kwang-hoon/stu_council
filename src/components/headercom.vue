@@ -1,16 +1,20 @@
 <template>
   <div id="headercom">
-    <div class="above_link">
-      <router-link to="/login" v-if="check_login" class="above_first">로그인</router-link>
-      <span v-else class="above_first" @click="_logout">로그아웃</span>
-      <router-link to="/signup" v-if="check_login" class="above_second">회원가입</router-link>
-      <router-link to="/mypage" v-else class="above_second">마이페이지</router-link>
+    <div class="above">
+      <div class="both_side">
+        <div class="above_link">
+          <router-link to="/login" v-if="check_login" class="above_first">로그인</router-link>
+          <span v-else class="above_first" @click="_logout">로그아웃</span>
+          <router-link to="/signup" v-if="check_login" class="above_second">회원가입</router-link>
+          <router-link to="/mypage" v-else class="above_second">마이페이지</router-link>
+        </div>
+      </div>
     </div>
-    <div class="container">
-      <div class="below_link">
+    <div class="below">
+      <div class="both_side">
         <div class="home_logo">
           <router-link to="/">
-            <img src="../assets/header_logo.png">
+            <img src="../assets/header_logo.png" />
           </router-link>
           <!--src/assets/header_logo.png-->
         </div>

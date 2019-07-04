@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <headercom></headercom>
-    <div class="main">
+    <div class="both_side">
       <router-view></router-view>
     </div>
     <sitelist></sitelist>

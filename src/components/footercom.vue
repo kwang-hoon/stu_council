@@ -1,7 +1,7 @@
 <template lang="pug">
   div#footercom
 
-    div.container
+    div.both_side
 
       div.footercom__logo
         img.footercom__logo-img(

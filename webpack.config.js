@@ -96,7 +96,7 @@ module.exports = {
     historyApiFallback: true,
     noInfo: true,
     overlay: true,
-    port: 7004,
+    port: 7003,
 
     headers: {
       "Access-Control-Allow-Origin": "*",
